@@ -1,0 +1,341 @@
+
+*{
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+@media only screen and (max-device-width:480px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .arrival{
+        position: relative;
+    }
+    .delivery, .interior1, .interior2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .lamp,.white,.black,.ellipse-text,.ellipse,.hat{
+        visibility: collapse;
+    }
+    .shop-image{
+        flex-direction: column;
+    }
+    .shop{
+        height: 2000px;
+    }
+
+ }
+
+/** header **/
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+.title{
+    color: #054C73;
+    font-size: 30px;
+}
+.link{
+    text-decoration: none; 
+    color: #333333;
+}
+.links{
+    display: flex;
+    gap: 55px;
+}
+
+.banner{
+    position: relative;
+    
+}
+.arrival{
+    position: absolute;
+    top: 69px;
+    right: 20px;
+    height: 371px;
+    width: 549px;
+    background-color: #DFE9F4;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 60px 50px;
+}
+.bannerImg{
+    width: 100%;
+}
+#arrival{
+    letter-spacing: 0.2mm;
+    font-weight: bold;
+    font-size: small;
+    color: #333333;
+}
+
+#discover{
+    font-weight: 900;
+    padding: 15px;
+    color: #054C73;
+    font-size: 48px;
+    width: 75%;
+}
+#lorem{
+    font-weight: 600;
+ color: #333333;
+ padding-bottom: 12px;
+ line-height: 30px;
+}
+
+/**first section**/
+.section-center{
+    text-align: center;
+    padding: 30px;
+}
+.inspo{
+    font-weight: 900;
+    font-size: 32px;
+}
+h5{
+    color: #666666;
+    font-weight: 500;
+}
+
+/**delivery section**/
+.delivery{
+    display: flex;
+    justify-content: space-around;
+    background-color:  #F2F5FF;;
+    margin-top: -4px;
+}
+.one, .two, .three{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+/**interior designs**/
+.interior1, .interior2{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.interior1{
+    gap: 13px;
+}
+.design1{
+    border-top-left-radius: 70px;
+}
+.design2{
+    position: relative;
+    bottom: 30px;
+}
+.design3{
+    width: 355px;
+    height: 443px;
+    border-bottom-right-radius: 70px;
+}
+.lamp{
+    position: absolute;
+    right: 242px;
+}
+
+
+
+/**beauty section**/
+.beautify{
+    display: flex;
+    padding: 54px 123px;
+    background-color: #DFE9F4;
+    position: relative;
+}
+.ellipse{
+    position: absolute;
+    top: 227px;
+    right: 64px;
+    z-index: 1;
+}
+.hat{
+    position: relative;
+    z-index: 2;
+    border-top-left-radius: 74px;
+    border-bottom-right-radius: 78px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 10px;
+}
+.beautyText{
+    margin: auto;
+}
+#text1{
+    color: #333333;
+    font-weight: 800;
+    font-size: 30px;
+}
+#text2{
+    color: #666666;
+    width: 350px;
+    word-spacing: 0.4mm;
+    letter-spacing: 0.1mm;
+    line-height: 22px;
+    padding: 26px 0;
+}
+#btn1{
+    background: #054C73;
+    padding: 12px 24px;
+    border: 1px #054C73;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.interior-two{
+    border-bottom: 2px solid #D7D6D6;
+    padding-bottom: 30px;
+}
+.interior2{
+    gap: 10px;
+}
+.designA, .designB, .designC{
+    border-radius: 10px;
+}
+
+#interior2-text{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    gap: 26%;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/**work-section**/
+.work{
+    position: relative;
+    padding-bottom: 58px;
+}
+.white{
+    position: absolute;
+    display: flex;
+    gap: 302px;
+    bottom: 150px;
+}
+.black{
+    position: absolute;
+    display: flex;
+    gap: 332px;
+    bottom: 164px;
+}
+.ellipse-text{
+    position: absolute;
+    display: flex;
+    gap: 376px;
+    bottom: 180px;
+    color: #ffffff;
+    font-size: 24px;
+}
+.work-text{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: -40px;
+    padding-left: 40px;
+}
+.inspo2{
+    font-weight: 700;
+    font-size: 20px;
+}
+#h5{
+    color: #666666;
+    font-weight: 400;
+    width: 90%;
+}
+.center{
+    text-align: center;
+    padding-top: 48px;
+}
+
+/**mail**/
+.mail{
+    background-color: #F2F5FF;
+    text-align: center;
+    height: 363px;
+    position: relative;
+}
+
+h2{
+    padding: 50px 0 20px 0;
+    color: #666666;
+    font-weight: 900;
+    font-size: 30px;
+}
+h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+form{
+    padding: 25px;
+}
+input{
+    width: 270px;
+    height: 40.5px;
+    border: 1px solid #054C73;
+}
+.btn2{
+    height: 43.5px;
+    width: 77px;
+    color: #ffffff;
+    margin-left: -8px;
+    background-color: #054C73;
+    border: #054C73;
+}
+
+/**beauty and instagram**/
+.instagram{
+    background-color: #03344F;
+    height: 290px;
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    gap: 10px;
+    padding-top: 40px;
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.care{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+    padding-left: 98px;
+}
+.beauty-care, .follow{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.2mm;
+}
+.lorem{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    opacity: 50%;
+}
+.shop-text{
+    align-self: start;
+    position: relative;
+    left: 61px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.shop-image{
+    display: flex;
+    gap: 14px;
+}
+
