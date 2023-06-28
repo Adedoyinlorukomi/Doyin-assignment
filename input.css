@@ -4,10 +4,18 @@
     font-family: 'Montserrat';
 }
 
-@media only screen and (max-device-width:480px){
+@media only screen and (max-width :428px){
+    #content{
+        margin: auto;
+        width: 400px;
+    }
     .header{
         display: flex;
-        flex-direction: column;
+        flex-direction: column; gap: 30px;
+    }
+    #links{
+        display: flex;
+        gap: 20px;
     }
     .arrival{
         position: relative;
@@ -36,20 +44,21 @@
 }
 .title{
     color: #054C73;
-    font-size: 30px;
+    font-size: 30px; font-family: 'Poppins';
+    font-weight: 700;
 }
 .link{
     text-decoration: none; 
-    color: #333333;
+    color: #333333; font-weight: 700; font-size: 14px;
 }
 .links{
     display: flex;
     gap: 55px;
+    margin-top: 10px;
 }
 
 .banner{
-    position: relative;
-    
+    position: relative;   
 }
 .arrival{
     position: absolute;
@@ -67,16 +76,15 @@
     width: 100%;
 }
 #arrival{
-    letter-spacing: 0.2mm;
-    font-weight: bold;
+    letter-spacing: 0.55mm;
+    font-weight: 900; font-family:'Poppins';
     font-size: small;
     color: #333333;
 }
 
 #discover{
     font-weight: 900;
-    padding: 15px;
-    color: #054C73;
+    color: #054C73; font-family: 'Poppins';
     font-size: 48px;
     width: 75%;
 }
@@ -85,6 +93,14 @@
  color: #333333;
  padding-bottom: 12px;
  line-height: 30px;
+}
+#btn1{
+    background: #054C73;
+    border: 1px #054C73;
+    border-radius: 42px;
+    width: 160px; padding: 19px 30px;
+    color: #ffffff;
+    font-size: 12px;
 }
 
 /**first section**/
@@ -179,15 +195,7 @@ h5{
     line-height: 22px;
     padding: 26px 0;
 }
-#btn1{
-    background: #054C73;
-    padding: 12px 24px;
-    border: 1px #054C73;
-    border-radius: 20px;
-    color: #ffffff;
-    font-size: 12px;
-    font-family: sans-serif;
-}
+
 
 .interior-two{
     border-bottom: 2px solid #D7D6D6;
